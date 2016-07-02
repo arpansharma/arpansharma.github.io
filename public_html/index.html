@@ -9,19 +9,41 @@
 	<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Cinzel+Decorative:700' rel='stylesheet' type='text/css'>
 	<link href='https://fonts.googleapis.com/css?family=Satisfy' rel='stylesheet' type='text/css'>
+
 </head>
+
 <body>
+
+<script src="JavaScript/jquery-3.0.0.min.js"></script>
+<script src="JavaScript/typed.js"></script>
+
+
 <div class="container-fluid">
 	<br><br>
 	<div class="row">
 		<div class="col-md-2"></div>
 		<div class="col-md-8">
 			<center>
-				<h2 class="heading1">A Programmer, A Geek and A Pythonista ...</h2>				
+				<p class="heading1"></p>
+				<script>
+				  $(function(){
+				      $(".heading1").typed({
+				        strings: ["A Programmer ...","A Geek ...","A Programmer, A Geek and A Pythonista ..."],
+				        typeSpeed: 20,
+				        backSpeed: 10,
+				        showCursor: true,
+				        startDelay: 1000,
+				        cursorChar: "|",
+				        contentType: 'html'
+				      });
+				  });
+				</script>				
 			</center>
 		</div>
 		<div class="col-md-2"></div>
 	</div>
+	
+	
 	<br><br>
 	<div class="row">
 		<div class="col-md-3"></div>
@@ -63,7 +85,7 @@
 			<h2>"Code is all I love, GitHub is all I commit to ..."</h2>
 		</center>
 	</div>
-	</div>
+	</div> 
 
 </body>
 </html>
