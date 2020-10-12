@@ -23,6 +23,7 @@ i{
 .typed-cursor{
 	font-size: 2.5em;
 	opacity: 1;
+	color: #FFFFFF;
     -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;
     animation: blink 0.7s infinite;
